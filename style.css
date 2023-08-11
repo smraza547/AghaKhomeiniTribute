@@ -91,3 +91,23 @@ footer{
     width:90%;
     margin:auto;
 }
+@media (max-width:375px){
+    nav ul{
+        display:inline-flex;
+        row-gap:2vh;
+        margin:auto;
+        flex-direction: column;   
+    }
+    nav li{
+        width:auto;
+        margin:0;
+    }
+}
+@media (min-width:2000px){
+    body{
+        font-size: 2rem;
+    }
+    figcaption{
+        font-size: 1.5rem;
+    }
+}
