@@ -1,29 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(75, 28, 5);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:1em;
     color: rgb(226, 214, 214);
     text-align: center;
-    padding: 3vh 0;;
-    margin:0;
-    
+    width:100%;
+    padding:3vh 0;
 }
-nav{
-    width: 90vw;
-    margin:auto;
-}
-nav>ul{
-    display: grid;
-    padding:2vh;
-    place-items:center center;
-    justify-content:space-between;
-    grid-gap:3vw;
-    grid-template-columns: repeat(auto-fit, minmax(3vw,auto));
-    grid-auto-flow: column;
-    border:3px solid rgb(105, 5, 5);
-}
+
+
 nav a{
     text-decoration: none;
     color:darkgrey;
+    width: 5vw;
 }
 nav a:hover{
     background-color: white;
@@ -37,6 +29,14 @@ header > p, h1{
 header>p{
     margin-bottom: 5vh;
 }
+nav ul{
+    display: flex;
+    gap: 2vw 4vw;
+    width:90vw;
+    margin:5vh auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 a{
     color: aqua;
 }
@@ -45,10 +45,10 @@ a:active{
     color:black;
 }
 img{
-    width: 95%;
-    height:70vh;
-    object-fit:cover;
+    width:90%;
+    height:80vh;
     margin:auto;
+    object-fit:cover;
     box-shadow: 0 0 60px rgb(3, 2, 2);
 }
 figure{
@@ -57,30 +57,29 @@ figure{
 }
 ul{
     list-style-type:none;
-}
-ul li{
-    scroll-behavior: smooth;
+    padding:0;
+}section li{
+    margin:5vh auto;
 }
 section{
-    margin: 0 auto;
-    max-width:75vw;
+    margin: 5vh auto;
 }
 span{
     font-weight: 900;
 }
 section p{
     display: inline-block;
-    margin-left:0;
+    width:80vw;
+    margin:auto;
 }
 blockquote{
     margin:6vh auto;
+    width:90%;
     font-style:italic;
-    font-size: 1.8rem;;
+    font-size: 1.5em;
 
 }
-@media (max-width:768px){
-    nav>ul{
-        grid-template-rows:repeat(2,1fr);
-      
-    }
+footer{
+    width:90%;
+    margin:auto;
 }
