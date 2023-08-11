@@ -23,13 +23,20 @@ nav a:hover{
 h1,blockquote{
     text-shadow:2px 2px rgb(233, 61, 61);
 }
+figcaption{
+    max-width:80vw;
+    margin:auto;
+}
 header > p, h1{
     margin:0;
 }
 header>p{
     margin-bottom: 5vh;
 }
+
 nav ul{
+    border:2px solid rgb(117, 1, 1);
+    box-shadow: 0 0 40px rgb(117,1,1);
     display: flex;
     gap: 2vw 4vw;
     width:90vw;
