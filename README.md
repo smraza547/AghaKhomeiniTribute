@@ -9,5 +9,5 @@ Built using HTML and CSS(Css Grid concepts were applied). This is fully mobile r
   
   [My GitHub Repository Link][repo_link]
 
-[web_link]:[https://smraza547.github.io/AghaKhomeiniTribute/]
+[web_link]:https://smraza547.github.io/AghaKhomeiniTribute/
 [repo_link]:https://github.com/smraza547/AghaKhomeiniTribute
