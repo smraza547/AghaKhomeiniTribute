@@ -2,7 +2,7 @@
 
 Tribute Page created for Grand Ayatollah Khomeini
 
-Built using HTML and CSS(Css Grid concepts were applied). This is fully mobile responsive.    
+Built using HTML and CSS. This is fully mobile responsive.    
   
   
   [Click Here to visit my Website!][web_link]   
