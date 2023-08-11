@@ -10,13 +10,14 @@ body{
     width:90vw;
     margin:auto;
     padding:3vh 0;
+    min-width:154px;
 }
 
 
 nav a{
     text-decoration: none;
     color:darkgrey;
-    width: 5vw;
+    padding:0 8vw;
 }
 nav a:hover{
     background-color: white;
@@ -39,6 +40,7 @@ nav ul{
     border:2px solid rgb(117, 1, 1);
     box-shadow: 0 0 40px rgb(117,1,1);
     display: flex;
+    padding:2vh 0;
     gap: 2vw 4vw;
     width:90vw;
     margin:5vh auto;
@@ -48,7 +50,7 @@ nav ul{
 a{
     color: aqua;
 }
-a:active{
+a:hover{
     background-color:azure;
     color:black;
 }
@@ -95,12 +97,16 @@ footer{
     nav ul{
         display:inline-flex;
         row-gap:2vh;
+        width:50vw;
         margin:auto;
         flex-direction: column;   
     }
     nav li{
         width:auto;
         margin:0;
+    }
+    nav a{
+        padding:0 18vw;
     }
 }
 @media (min-width:2000px){
