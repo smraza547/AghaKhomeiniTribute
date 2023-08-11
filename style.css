@@ -48,6 +48,7 @@ img{
     width: 95%;
     height:70vh;
     object-fit:cover;
+    margin:auto;
     box-shadow: 0 0 60px rgb(3, 2, 2);
 }
 figure{
